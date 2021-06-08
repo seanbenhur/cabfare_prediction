@@ -14,5 +14,11 @@ jobs:
           pip install -r requirements.txt
           dvc repro 
           git fetch --prune
-          python src/train.py
-    
+          python src/evaluate.py
+
+          echo "#Model metrics" > report.md
+          cat metrics.json
+
+          cml-send-comment report.md
+
+
