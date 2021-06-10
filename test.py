@@ -15,5 +15,4 @@ data = {'cab_provider': 3
 data = json.dumps(data)
 
 send_request  = requests.post(url,data)
-print(send_request)
 print(send_request.json())
