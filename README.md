@@ -1,11 +1,21 @@
-# Cab Fare prediction using Machine Learning
-Prediction of Cab Fare prices using Machine Learning
+# CabFare Prediction using Machine Learning
 
-This is an api that predicts the cabfare using Machine Learning, this was originally made for Dockship
-cabfare challenge where I used ensemble of GBDTs to get a position in leaderboard(notebook will be made public after the results are out)
+## Table of Contents
 
-## Test  locally
-To test locally 
+- [About](#about)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
+## About <a name = "about"></a>
+
+This project uses Machine Learning methods to predict the fare of a cab travels, This project is a minimal example to learn MLops such as Docker, DVC and feature stores
+
+
+
+## Usage <a name = "usage"></a>
+
+To test this app locally, I would recommend you to create a virtual environment
+
 
 ```bash
 conda create venv python=3.7
@@ -15,6 +25,8 @@ python app.py
 python test.py
 ```
 
-## Contributing
+
+## Contributing <a name = "contributing">
 
 If you found any issues please feel free to contribute
+
