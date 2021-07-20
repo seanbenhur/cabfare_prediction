@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+    app:
+        build: .
+        command: python app.py
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/CABFARE_PREDICTION
+
+
